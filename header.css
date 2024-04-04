@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "q";
+    src: url("Quicksand-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "n";
+    src: url("Audiowide-Regular.ttf");
+}
+body {
+    font-family: "q";
+}
+.headerFont1{
+    font-family: "n";
+    font-size: 10px;
+}.headerFont2{
+    font-size: 10px;
+    font-family: "n";
+}
+
+header {
+    align-items: center;
+    position: fixed;
+    font-family: "q";
+    justify-content: space-between;
+    left: 0;
+   z-index: 2;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, .5);
+    color: aliceblue;
+    padding: 10px 0;
+    transition: padding 300ms ease;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+header.sticky {
+    background: rgb(29, 29, 29) !important;
+    padding: 10px 20px;
+    color: #f6f5f5;
+}
+
+.carousel-inner>.item {
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+.carousel-item-next.carousel-item-left{
+    display: block !important;
+  }
+ 
+
+    
